@@ -16,6 +16,7 @@ class SlackNotifier
     {
       icon_url: 'https://assets-cdn.github.com/images/modules/logos_page/Octocat.png',
       username: 'GitHub PR Assignment',
+      link_names: true,
       attachments: [{
         title: pull_request['title'],
         title_link: link,
